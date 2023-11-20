@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+@font-face {
+    font-family: 'coolvetica';
+    src: url(fuentes/coolvetica\ rg\ \(2\).otf);
+    font-weight: regular;
+}
+
+
+h1 {
+    font-family: 'coolvetica';    
+    color: #0a2ff1;
+    font-size: 120px;
+}
+
+main {
+    font-family: 'Roboto';
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 30px;
+    color: #0a2ff1;
+}
+
+.funciones {
+    width: 20%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    background-color: #eff2ff;
+    margin-right: 5%;
+    text-align: center;
+    border-radius: 7%;
+
+}
+
+.funciones img {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#apple {
+    width: 18%;
+}
+
+p {
+    font-size: 24px;
+    color: #04146c;
+    font-weight: 400;
+}
